@@ -1,31 +1,47 @@
+*{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+div{
+    font-weight:800;
+    font-size: larger;
 
-
-
+}
+.topbox{
+    background-color: #1d3c45;
+    color: #fff1e1;
+    text-align: center;
+ font-size: 50px;
+}
+.topbox:hover{
+    color: #d58d60;
+}
 /* body tag  */
 body{
-    background-color:rgb(203, 221, 238) ;
+    background-color:#4c6bbf;
+    background-size: 100% 100%;
     color: rgb(42, 41, 41);
+    
 }
 
 
-/* navigation tag  */
-#top{
-    background-color: rgb(49, 41, 41);
-    height: 40px;
-    color: white;
-    font-size: 35px;
-    text-align: center;
-}
 
 
 /* personal details  */
 #personaldetails{
     font-weight: bolder;
     font-size: 20px;
-    background-color: lightblue;
+    background-color: #fff1e1;
     text-align: center;
+    
 
 }
+
+#personaldetails:hover{
+    background-color: rgb(255, 255, 96);
+    transition: .9s;
+}
+
 
 
 /* in personal details */
@@ -45,14 +61,22 @@ body{
 
 /* OBJECTIVES */
 #objectivecontent{
+    /* border-radius: 20px; */
 
-    background-color: lightblue;
+    background-color: #fff1e1;
 }
+#objectivecontent:hover{
+    background-color: rgb(255, 255, 96);
+    transition: .9s;
+}
+
 
 
 /* paragraph */
 #objectivecontentP{
-    margin:10px;
+
+    margin-left: 10px;
+
 }
 
 
@@ -61,8 +85,15 @@ body{
 
 /* experience list */
 #explist{
-    background-color: lightblue;
+    background-color: #fff1e1;
+    /* border-radius: 20px; */
 }
+
+#explist:hover{
+    background-color: rgb(255, 255, 96);
+    transition: .9s;
+}
+
 
 
 /* experience content */
@@ -70,10 +101,18 @@ body{
     margin: left 10px;
 }
 
+/* eductation */
 
 #edulist{
-    background-color: lightblue;
+    background-color: #fff1e1;
+    /* border-radius: 20px; */
 }
+#edulist:hover{
+    background-color: rgb(255, 255, 96);
+    transition: .9s;
+}
+
+
 
 
 #edulist1{
@@ -84,8 +123,15 @@ body{
 /* SKILLS */
  
 #skillscontent{
-    background-color: lightblue;
+    background-color: #fff1e1;
+    /* border-radius: 20px; */
 }
+#skillscontent:hover{
+    background-color: rgb(255, 255, 96);
+    transition: .9s;
+}
+
+
 
 #skillscontent1{
     font-size: larger;
@@ -94,12 +140,32 @@ body{
 /* achievement and awards. */
 
 #achi{
-    background-color: lightblue;
     font-size: larger;
     font-weight: bolder;
+    background-color: #fff1e1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
     
 }
+#achi:hover{
+    background-color: rgb(255, 255, 96);
+    transition: .9s;
+}
+
+
 
 #html1{
 width: 250px;
+border:5;
+}
+.headt{
+    padding: 2%;
+    font-size: 50px;
+    text-align: center;
+}
+.certificate{
+    font-size: 100%;
+    padding-top: 5%;
+    box-sizing: border-box;
 }
